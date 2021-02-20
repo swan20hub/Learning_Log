@@ -1,5 +1,7 @@
 # Learning Log 
 
+Live version <https://personal-learning-log-project.herokuapp.com/>
+
 ## How to setup the project
 
 1. Create a virtual environment, name it as  `ll_env`
