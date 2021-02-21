@@ -38,19 +38,10 @@ Live version <https://personal-learning-log-project.herokuapp.com/>
     4. python manage.py runserver
 5. python manage.py makemigrations learning_logs
 6. python manage.py createsuper user
-    username : ll_admin 
-    password : Password
 7. python manage.py shell
     from learning_logs.models import Topic
     Topic.objects.all()
-8. python manage.py startapp users
-    created a user with below
-    username : swarna
-    password : admin@123
-    
-    New profile
-    Username : swarna@test1
-    Password : admin@123
+
    
 9. pip install django-bootstrap4    
 10. https://getbootstrap.com/   
@@ -74,9 +65,6 @@ Below are steps to be followed to add to git
         git add .
         git commit -am "Ready for deployment to heroku"
 
-we dont push all local data to heroku so create a new super user
-    username : ll_admin 
-    password : admin@123
         
 
 
